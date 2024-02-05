@@ -1,0 +1,1 @@
+ALTER TABLE `sports` ADD `color` varchar(256) DEFAULT '#000000' NOT NULL;

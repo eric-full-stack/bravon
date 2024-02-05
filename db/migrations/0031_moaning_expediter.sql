@@ -1,0 +1,1 @@
+ALTER TABLE `whatsapp_notifications` MODIFY COLUMN `type` enum('all_bookings_from_student','booking_appointment','payment_plan_remainder','welcome_message','booking_appointment_deleted','new_feedback','lesson_confirmed_teacher') NOT NULL;

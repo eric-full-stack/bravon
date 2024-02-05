@@ -1,0 +1,1 @@
+ALTER TABLE `bookings_students` ADD `notification_sent_at` timestamp;

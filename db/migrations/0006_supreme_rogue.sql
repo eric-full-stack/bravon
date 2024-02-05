@@ -1,0 +1,24 @@
+ALTER TABLE `bookings` MODIFY COLUMN `date` varchar(256) NOT NULL;--> statement-breakpoint
+ALTER TABLE `bookings` MODIFY COLUMN `teacher_id` int NOT NULL;--> statement-breakpoint
+ALTER TABLE `bookings` MODIFY COLUMN `start_time` varchar(256) NOT NULL;--> statement-breakpoint
+ALTER TABLE `bookings` MODIFY COLUMN `end_time` varchar(256) NOT NULL;--> statement-breakpoint
+ALTER TABLE `bookings_students` MODIFY COLUMN `booking_id` int NOT NULL;--> statement-breakpoint
+ALTER TABLE `bookings_students` MODIFY COLUMN `student_id` int NOT NULL;--> statement-breakpoint
+ALTER TABLE `plans` MODIFY COLUMN `teacher_id` int NOT NULL;--> statement-breakpoint
+ALTER TABLE `plans` MODIFY COLUMN `sport_id` int NOT NULL;--> statement-breakpoint
+ALTER TABLE `plans` MODIFY COLUMN `name` varchar(256) NOT NULL;--> statement-breakpoint
+ALTER TABLE `plans` MODIFY COLUMN `description` text NOT NULL;--> statement-breakpoint
+ALTER TABLE `plans` MODIFY COLUMN `price` float NOT NULL;--> statement-breakpoint
+ALTER TABLE `plans` MODIFY COLUMN `duration` int NOT NULL;--> statement-breakpoint
+ALTER TABLE `sports` MODIFY COLUMN `name` varchar(256) NOT NULL;--> statement-breakpoint
+ALTER TABLE `students` MODIFY COLUMN `user_id` int NOT NULL;--> statement-breakpoint
+ALTER TABLE `students` MODIFY COLUMN `plan_id` int NOT NULL;--> statement-breakpoint
+ALTER TABLE `students` MODIFY COLUMN `rating` float NOT NULL;--> statement-breakpoint
+ALTER TABLE `teachers` MODIFY COLUMN `user_id` int NOT NULL;--> statement-breakpoint
+ALTER TABLE `teachers` MODIFY COLUMN `sport_id` int NOT NULL;--> statement-breakpoint
+ALTER TABLE `teachers` MODIFY COLUMN `rating` float NOT NULL;--> statement-breakpoint
+ALTER TABLE `user_roles` MODIFY COLUMN `user_id` int NOT NULL;--> statement-breakpoint
+ALTER TABLE `users` MODIFY COLUMN `external_id` varchar(256) NOT NULL;--> statement-breakpoint
+ALTER TABLE `users` MODIFY COLUMN `full_name` text NOT NULL;--> statement-breakpoint
+ALTER TABLE `users` MODIFY COLUMN `phone` varchar(256) NOT NULL;--> statement-breakpoint
+ALTER TABLE `users` MODIFY COLUMN `email` varchar(256) NOT NULL;
