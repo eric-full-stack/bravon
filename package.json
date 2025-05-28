@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "next lint --fix",
     "drizzle-kit": "drizzle-kit",
     "db:push": "drizzle-kit push:mysql --config ./drizzle.config.ts",
     "migration:generate": "drizzle-kit generate:mysql --config ./drizzle.config.ts"

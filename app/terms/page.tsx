@@ -14,8 +14,8 @@ export default function TermsOfService() {
                         Última atualização: {new Date().toLocaleDateString('pt-BR')}
                     </p>
                     <p className="mb-6">
-                        Estes Termos de Uso ("Termos") regem o uso dos serviços de automação
-                        empresarial fornecidos pela Bravon ("nós", "nosso" ou "empresa").
+                        Estes Termos de Uso (&quot;Termos&quot;) regem o uso dos serviços de automação
+                        empresarial fornecidos pela Bravon (&quot;nós&quot;, &quot;nosso&quot; ou &quot;empresa&quot;).
                         Ao usar nossos serviços, você concorda com estes termos.
                     </p>
                 </section>
@@ -29,20 +29,20 @@ export default function TermsOfService() {
 
                     <ul className="mb-4 list-disc pl-6 space-y-2">
                         <li>
-                            <strong>"Serviços":</strong> Soluções de automação empresarial,
+                            <strong>&quot;Serviços&quot;:</strong> Soluções de automação empresarial,
                             incluindo integração com Google Calendar, WhatsApp, Telegram,
                             CRMs e outros sistemas
                         </li>
                         <li>
-                            <strong>"Usuário" ou "Cliente":</strong> Pessoa física ou jurídica
+                            <strong>&quot;Usuário&quot; ou &quot;Cliente&quot;:</strong> Pessoa física ou jurídica
                             que contrata nossos serviços
                         </li>
                         <li>
-                            <strong>"Dados do Cliente":</strong> Todas as informações fornecidas
+                            <strong>&quot;Dados do Cliente&quot;:</strong> Todas as informações fornecidas
                             ou geradas através do uso dos serviços
                         </li>
                         <li>
-                            <strong>"Automações":</strong> Fluxos de trabalho automatizados
+                            <strong>&quot;Automações&quot;:</strong> Fluxos de trabalho automatizados
                             criados e configurados para o cliente
                         </li>
                     </ul>
