@@ -12,29 +12,29 @@ import "swiper/css/scrollbar";
 
 const feedbacks = [
   {
-    name: "Prof. Ana Maria",
+    name: "Carlos Mendes - CEO TechSolutions",
     description:
-      "Bravon transformou completamente a maneira como eu gerencio minhas aulas de padel. A funcionalidade de agendamento de aulas é incrivelmente útil e a capacidade de dar feedback diretamente aos meus alunos através do WhatsApp tem sido inestimável.",
+      "A Bravon revolucionou nossa operação! Automatizaram todo nosso atendimento via WhatsApp e integraram com nosso CRM. Agora respondemos clientes 24/7 e nossa conversão aumentou 300%. O ROI foi incrível!",
   },
   {
-    name: "Prof. Carlos Alberto",
+    name: "Marina Silva - Diretora Comercial",
     description:
-      "Eu amo a simplicidade da Bravon. Tudo, desde o cadastro de alunos até o gerenciamento de planos de treinamento, é intuitivo e fácil de usar. Ainda por cima, o fato de poder acompanhar o desempenho do meu negócio com relatórios detalhados é fantástico.",
+      "Implementaram agentes de IA que analisam nossos leads automaticamente e distribuem para a equipe certa. Eliminamos 80% do trabalho manual e aumentamos nossa eficiência de vendas drasticamente.",
   },
   {
-    name: "Prof. Beatriz Silva",
+    name: "Roberto Santos - Gerente de Operações",
     description:
-      "Os relatórios detalhados que a Bravon fornece sobre o progresso dos alunos são incríveis. Agora posso ver exatamente onde meus alunos estão melhorando e onde precisam de mais ajuda. Isso fez uma enorme diferença na qualidade do meu ensino.",
+      "A automação dos processos internos foi um divisor de águas. Documentos são gerados automaticamente, aprovações fluem sem intervenção manual e tudo se integra perfeitamente com nosso Google Workspace.",
   },
   {
-    name: "Prof. Lucas Santos",
+    name: "Ana Paula - Fundadora StartupX",
     description:
-      "Usar a Bravon para gerenciar meus alunos e minhas aulas de beach tênis tem sido uma experiência maravilhosa. A capacidade de interagir com os feedbacks dos alunos via WhatsApp tem sido um divisor de águas. Eu recomendo a Bravon para todos os professores de esportes.",
+      "Como startup, precisávamos de eficiência máxima. A Bravon criou automações que nos fazem parecer uma empresa 10x maior. Nosso Telegram bot gerencia toda comunicação interna e externa perfeitamente.",
   },
   {
-    name: "Prof. Sofia Oliveira",
+    name: "João Oliveira - Diretor de TI",
     description:
-      "A Bravon é a ferramenta que eu não sabia que precisava, mas agora não consigo viver sem. A plataforma facilitou o acompanhamento do progresso dos meus alunos, a organização das minhas aulas e a comunicação eficaz com os alunos. É realmente uma solução tudo-em-um.",
+      "A integração entre todos nossos sistemas era um pesadelo. Agora tudo funciona em harmonia - CRM, ERP, planilhas, tudo sincronizado em tempo real. A visibilidade que ganhamos é impressionante.",
   },
 ];
 
@@ -44,15 +44,13 @@ export default function FeedbackSection() {
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-3xl font-extrabold text-gray-900 dark:text-white sm:text-4xl">
-            Descubra como a Bravon está transformando a gestão esportiva
+            Empresas que já transformaram seus processos com IA
           </h2>
           <p className="mt-4 text-lg text-gray-500 dark:text-gray-400">
-            Com a Bravon, professores de esportes estão elevando seu ensino a
-            novos níveis. De organizar alunos e criar planos de treinamento
-            personalizados, a agendar aulas e comunicar-se de forma eficaz com
-            seus alunos - tudo é possível com nossa solução integrada. Veja o
-            que nossos usuários têm a dizer sobre suas experiências com a
-            Bravon.
+            Descubra como empresas de diversos segmentos estão revolucionando
+            suas operações com nossas soluções de automação inteligente.
+            De startups a grandes corporações, todos estão colhendo os benefícios
+            da transformação digital com a Bravon.
           </p>
         </div>
         <div className="mt-20">
@@ -93,9 +91,9 @@ export default function FeedbackSection() {
           </Swiper>
         </div>
         <div className="mt-20 flex items-center justify-center">
-          <Link href="/sign-up">
+          <Link href="#contato">
             <Button className="mt-8 text-lg" variant="default">
-              Seja um cliente Bravon hoje
+              Transforme sua empresa hoje
             </Button>
           </Link>
         </div>

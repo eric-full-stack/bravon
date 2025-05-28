@@ -45,11 +45,7 @@ export function MainNav({ items }: MainNavProps) {
         </NavigationMenu>
       ) : null}
       <div className="flex-1" />
-      {pathname === "/" ? (
-        <Link href="/sign-in">
-          <Button>Entrar</Button>
-        </Link>
-      ) : null}
+
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import { lpConfig } from "@/config/site";
 import Logo from "./logo";
 import { Heart } from "lucide-react";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -23,8 +24,12 @@ export default function Footer() {
           <div className="flex flex-col gap-2">
             <p className="font-bold">Sobre</p>
             <p>Quem somos</p>
-            <p>Termos de uso</p>
-            <p>Política de privacidade</p>
+            <Link href="/terms" className="hover:text-gray-600 transition-colors">
+              <p>Termos de uso</p>
+            </Link>
+            <Link href="/privacy" className="hover:text-gray-600 transition-colors">
+              <p>Política de privacidade</p>
+            </Link>
           </div>
           <div className="flex flex-col gap-2">
             <p className="font-bold">Contato</p>
@@ -32,15 +37,11 @@ export default function Footer() {
             <p>E-mail: {lpConfig.email}</p>
           </div>
           <div className="flex flex-col gap-2">
-            <p className="font-bold">Redes sociais</p>
-            <p>Instagram</p>
-            <p>Facebook</p>
-            <p>Twitter</p>
-          </div>
-          <div className="flex flex-col gap-2">
             <p className="font-bold">Suporte</p>
             <p>FAQ</p>
-            <p>Contato</p>
+            <Link href="#contato" className="hover:text-gray-600 transition-colors">
+              <p>Contato</p>
+            </Link>
           </div>
         </div>
       </div>

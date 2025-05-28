@@ -1,10 +1,10 @@
 import {
-  BarChartHorizontal,
-  Box,
-  Calendar,
-  MessageCircle,
-  Send,
-  User2,
+  Bot,
+  MessageSquare,
+  Workflow,
+  Zap,
+  Brain,
+  Globe,
 } from "lucide-react";
 import { Balancer } from "react-wrap-balancer";
 import { Button } from "./ui/button";
@@ -12,40 +12,40 @@ import Link from "next/link";
 
 const features = [
   {
-    name: "Cadastro de Alunos",
+    name: "Automação de WhatsApp e Telegram",
     description:
-      "Organize e gerencie seus alunos de maneira eficaz. Com a Bravon, o cadastro de alunos é simples e intuitivo, permitindo que você mantenha as informações de todos os seus alunos em um só lugar.",
-    icon: <User2 />,
+      "Crie chatbots inteligentes e automações completas para WhatsApp e Telegram. Responda clientes automaticamente, envie campanhas personalizadas e integre com seus sistemas internos.",
+    icon: <MessageSquare />,
   },
   {
-    name: "Gerenciamento de Planos de Treinamento",
+    name: "Agentes de IA Personalizados",
     description:
-      "Crie planos de treinamento personalizados para cada aluno. A nossa plataforma facilita o acompanhamento do progresso dos alunos e a adaptação dos planos conforme necessário.",
-    icon: <Box />,
+      "Desenvolva agentes de inteligência artificial customizados para sua empresa. Desde atendimento ao cliente até análise de dados, nossos agentes trabalham 24/7 para otimizar seus processos.",
+    icon: <Brain />,
   },
   {
-    name: "Agendamento de Aulas",
+    name: "Integração com CRMs e ERPs",
     description:
-      "Agende aulas com seus alunos de maneira simples e rápida. A Bravon permite que você agende aulas com seus alunos e envie notificações para eles.",
-    icon: <Calendar />,
+      "Conecte automaticamente seus sistemas de gestão. Sincronize dados entre CRMs, ERPs, planilhas e outras plataformas, eliminando trabalho manual e reduzindo erros.",
+    icon: <Workflow />,
   },
   {
-    name: "Notificações via WhatsApp",
+    name: "Automação Google Workspace",
     description:
-      "Envie notificações para seus alunos via WhatsApp. A Bravon permite que você envie notificações para seus alunos e que eles interejam com as notificações, tudo via WhatsApp, facilitando muito a comunicação.",
-    icon: <Send />,
+      "Automatize processos no Google Drive, Sheets, Gmail e Calendar. Organize documentos automaticamente, gere relatórios dinâmicos e sincronize informações em tempo real.",
+    icon: <Globe />,
   },
   {
-    name: "Feedbacks de Aulas",
+    name: "Processos Internos Inteligentes",
     description:
-      "Facilite a comunicação com seus alunos oferecendo feedbacks de maneira simples e rápida. A Bravon permite que você compartilhe observações e sugestões com seus alunos, e também que eles interajam com esses feedbacks, tudo através do WhatsApp.",
-    icon: <MessageCircle />,
+      "Transforme processos manuais em fluxos automatizados. Desde aprovações até geração de documentos, nossa IA cuida de tudo enquanto você foca no que realmente importa.",
+    icon: <Zap />,
   },
   {
-    name: "Relatórios Detalhados",
+    name: "Monitoramento e Relatórios",
     description:
-      "Acompanhe o desempenho do seu negócio e do seu aluno com relatórios detalhados. A Bravon oferece uma visão clara do progresso dos alunos e fornece insights sobre o rendimento do seu negócio, facilitando a tomada de decisões e planejamento futuro.",
-    icon: <BarChartHorizontal />,
+      "Acompanhe o desempenho de todas as automações em tempo real. Receba relatórios detalhados sobre eficiência, economia de tempo e ROI das implementações.",
+    icon: <Bot />,
   },
 ];
 
@@ -55,14 +55,13 @@ export default function FeatureSection() {
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-3xl font-extrabold text-gray-900 dark:text-white sm:text-4xl">
-            Alavanque sua gestão de aulas e alunos com a Bravon
+            Revolucione sua empresa com automação inteligente
           </h2>
           <p className="mt-4 text-lg text-gray-500 dark:text-gray-400">
-            Com a Bravon, você tem uma plataforma poderosa e fácil de usar que
-            leva sua gestão de aulas e alunos a novos patamares. Organize seus
-            alunos, crie planos de treinamento personalizados, agende aulas e se
-            comunique de maneira eficiente com seus alunos, tudo em uma única
-            solução integrada.
+            Com a Bravon, você tem acesso a soluções de automação empresarial
+            de última geração. Conectamos sistemas, automatizamos processos e
+            implementamos inteligência artificial para transformar completamente
+            a eficiência da sua empresa.
           </p>
         </div>
         <div className="mt-20">
@@ -85,9 +84,9 @@ export default function FeatureSection() {
           </dl>
         </div>
         <div className="mt-12 flex items-center justify-center">
-          <Link href="/sign-up">
+          <Link href="#contato">
             <Button className="mt-8 text-lg" variant="default">
-              Comece com a Bravon agora
+              Comece sua transformação digital
             </Button>
           </Link>
         </div>

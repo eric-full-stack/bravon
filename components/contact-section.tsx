@@ -8,21 +8,21 @@ export default function ContactSection() {
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-3xl font-extrabold text-gray-900 dark:text-white sm:text-4xl">
-            Conecte-se à Bravon
+            Pronto para automatizar sua empresa?
           </h2>
           <p className="mt-4 text-lg text-gray-500 dark:text-gray-400">
-            Pronto para levar seu ensino esportivo ao próximo nível? Vamos
-            conversar! Estamos ansiosos para mostrar como a Bravon pode
-            alavancar sua carreira de forma surpreendente. Entre em contato e dê
-            o primeiro passo rumo ao sucesso!
+            Vamos conversar sobre como a inteligência artificial pode revolucionar
+            seus processos! Oferecemos uma consultoria gratuita para entender suas
+            necessidades e apresentar soluções personalizadas que vão transformar
+            a eficiência da sua empresa.
           </p>
         </div>
       </div>
       <div className="mt-8 flex items-center justify-center">
         <Link href="https://wa.me/5549991065193" target="_blank">
-          <Button className="text-lg" variant="default">
+          <Button className="text-lg flex items-center gap-2" variant="default">
             <MessageCircle />
-            Fale com a Bravon
+            Solicitar Consultoria Gratuita
           </Button>
         </Link>
       </div>

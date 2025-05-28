@@ -8,11 +8,11 @@ export const lpConfig = {
   address: "Rua Nilopolis - S/N, Universitário - Chapecó - SC - 89.812-060",
   email: "suporte@bravon.app",
   celphone: "49991065193",
-  title: "Bravon: gestão de aulas esportivas particulares",
+  title: "Bravon: automação empresarial com inteligência artificial",
   keywords:
-    "Plataforma de gestão esportiva, Ensinamento de esportes, Gerenciamento de aulas de esporte, Organização de alunos de esportes, Planos de treinamento personalizados, Agendamento de aulas de esporte, Comunicação eficiente com alunos",
+    "Automação empresarial, Inteligência artificial, Chatbot WhatsApp, Automação Telegram, Integração CRM, Automação processos, Agentes IA, Google Workspace automação, Automação N8N, Transformação digital",
   description:
-    "Bravon: Sua plataforma definitiva para gestão de aulas esportivas. Cadastre alunos, crie e gerencie planos de treinamento, agende aulas e envie notificações via WhatsApp, tudo em um só lugar. Experimente agora!",
+    "Bravon: Revolucione sua empresa com automação inteligente. Criamos chatbots para WhatsApp e Telegram, agentes de IA personalizados e integramos todos seus sistemas. Transforme processos manuais em automações eficientes.",
   mainNav: [
     {
       title: "Home",
@@ -39,19 +39,20 @@ export const lpConfig = {
 
 export const siteConfig = {
   name: "Bravon",
-  description: "A plataforma que conecta professores de esportes com alunos.",
+  description:
+    "Automação empresarial inteligente que conecta sistemas e otimiza processos.",
   mainNav: [
     {
       title: "Home",
       href: "/admin/dashboard",
     },
     {
-      title: "Agenda",
+      title: "Automações",
       href: "/admin/bookings",
     },
     {
-      title: "Alunos",
-      description: "Gerencie seus alunos",
+      title: "Clientes",
+      description: "Gerencie seus clientes",
       href: "/admin/students",
     },
     {
@@ -59,8 +60,8 @@ export const siteConfig = {
       href: "/admin/financial",
     },
     {
-      title: "Planos",
-      description: "Gerencie os planos de assinatura",
+      title: "Projetos",
+      description: "Gerencie os projetos de automação",
       href: "/admin/plans",
     },
   ],
