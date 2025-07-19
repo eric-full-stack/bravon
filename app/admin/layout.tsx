@@ -3,12 +3,21 @@ import { SiteToolbar } from "@/components/site-toolbar";
 import { Toaster } from "@/components/toaster";
 import Providers from "@/config/providers";
 
-interface LayoutProps {
-  children: React.ReactNode;
-  modal: React.ReactNode;
+type LayoutProps = {
+  children?: React.ReactNode
 }
 
-export default function AdminLayout({ children, modal }: LayoutProps) {
+type LayoutPropsExtended = {
+  children?: React.ReactNode
+  modal?: React.ReactNode;
+}
+
+export default function AdminLayout(props: LayoutProps | LayoutPropsExtended) {
+  const { children, modal } = {
+    ...props,
+    modal: undefined,
+  };
+
   return (
     <Providers>
       <div className="relative mx-auto flex min-h-screen w-full max-w-[1440px] flex-col overflow-x-hidden pb-12 md:px-4">

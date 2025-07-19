@@ -12,8 +12,7 @@ const nextConfig = {
   env: {
     DATABASE_URL: process.env.DATABASE_URL,
   },
-  experimental: {
-    appDir: true,
+  experimental: {   
     serverComponentsExternalPackages: ["mysql2"],
   },
 };
