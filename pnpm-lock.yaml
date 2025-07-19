@@ -74,6 +74,9 @@ dependencies:
   '@tanstack/react-table':
     specifier: ^8.9.3
     version: 8.9.3(react-dom@18.2.0)(react@18.2.0)
+  '@types/mime-types':
+    specifier: ^3.0.1
+    version: 3.0.1
   '@types/node':
     specifier: 20.4.1
     version: 20.4.1
@@ -122,6 +125,9 @@ dependencies:
   lucide-react:
     specifier: ^0.259.0
     version: 0.259.0(react@18.2.0)
+  mime-types:
+    specifier: ^3.0.1
+    version: 3.0.1
   mysql2:
     specifier: ^3.5.0
     version: 3.5.0
@@ -137,6 +143,9 @@ dependencies:
   posthog-js:
     specifier: ^1.73.1
     version: 1.73.1
+  posthog-node:
+    specifier: ^5.5.1
+    version: 5.5.1
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -2238,6 +2247,10 @@ packages:
 
   /@types/keygrip@1.0.2:
     resolution: {integrity: sha512-GJhpTepz2udxGexqos8wgaBx4I/zWIDPh/KOGEwAqtuGDkOUJu5eFvwmdBX4AmB8Odsr+9pHCQqiAqDL/yKMKw==}
+    dev: false
+
+  /@types/mime-types@3.0.1:
+    resolution: {integrity: sha512-xRMsfuQbnRq1Ef+C+RKaENOxXX87Ygl38W1vDfPHRku02TgQr+Qd8iivLtAMcR0KF5/29xlnFihkTlbqFrGOVQ==}
     dev: false
 
   /@types/mime@1.3.2:
@@ -4717,11 +4730,23 @@ packages:
     engines: {node: '>= 0.6'}
     dev: false
 
+  /mime-db@1.54.0:
+    resolution: {integrity: sha512-aU5EJuIN2WDemCcAp2vFBfp/m4EAhWJnUNSSw0ixs7/kXbd6Pg64EmwJkNdFhB8aWt1sH2CTXrLxo/iAGV3oPQ==}
+    engines: {node: '>= 0.6'}
+    dev: false
+
   /mime-types@2.1.35:
     resolution: {integrity: sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==}
     engines: {node: '>= 0.6'}
     dependencies:
       mime-db: 1.52.0
+    dev: false
+
+  /mime-types@3.0.1:
+    resolution: {integrity: sha512-xRc4oEhT6eaBpU1XF7AjpOFD+xQmXNB5OVKwp4tqCuBpHLS/ZbBDrc07mYTDqVMg6PfxUjjNp85O6Cd2Z/5HWA==}
+    engines: {node: '>= 0.6'}
+    dependencies:
+      mime-db: 1.54.0
     dev: false
 
   /mimic-fn@2.1.0:
@@ -5212,6 +5237,11 @@ packages:
     resolution: {integrity: sha512-eN08SkMdOG14TbUWek/7it4nCwcclK4MklCemq4/JK+rdsVqCWJXnYG2EdUOMoLv8wZOZ0yKIdc0vLI/ctrT/w==}
     dependencies:
       fflate: 0.4.8
+    dev: false
+
+  /posthog-node@5.5.1:
+    resolution: {integrity: sha512-y2TBl6H27vEbXk7sqG8QISmYaUN/UcPOYYDAK0wtnXRG3ySb93mG//vri1zS2hZvYHbBv0Tz8sLpZRCq4/v99A==}
+    engines: {node: '>=20'}
     dev: false
 
   /prelude-ls@1.2.1:
