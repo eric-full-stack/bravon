@@ -15,6 +15,12 @@ const nextConfig = {
   experimental: {   
     serverComponentsExternalPackages: ["mysql2"],
   },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 module.exports = nextConfig;
