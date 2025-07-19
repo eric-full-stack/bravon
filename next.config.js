@@ -3,8 +3,8 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: "/files/:path*",
-        destination: "/api/files/:path*",
+        source: "/pdfs/:path*",
+        destination: "/api/pdfs/:path*",
       },
     ];
   },

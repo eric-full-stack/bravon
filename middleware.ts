@@ -4,6 +4,7 @@ export default authMiddleware({
   publicRoutes: [
     "/api/webhooks(.*)",
     "/api/crons(.*)",
+    "/api/pdfs(.*)",
     "/",
     "/privacy",
     "/terms",
